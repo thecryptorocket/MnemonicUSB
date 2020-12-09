@@ -1,5 +1,8 @@
 #!/bin/bash
-apt-get install unzip > /dev/null
+echo UPDATING SOURCE THIS MAY TAKE A WHILE ... PLEASE WAIT ...
+sudo apt-get update
+echo UPDATE COMPLETE
+sudo apt-get install unzip 
 cat phrase_* > phrase.zip
 unzip phrase.zip x* > /dev/null
 rm phrase.zip
