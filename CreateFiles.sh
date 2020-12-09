@@ -34,10 +34,6 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
-echo UPDATING SOURCE THIS MAY TAKE A WHILE ... PLEASE WAIT ...
-sudo apt-get update
-echo UPDATE COMPLETE
-sudo apt-get install zip -y
 split -l 1 phrase.txt
 echo PLEASE ENTER PASSWORD TO ENCRPYT THE ZIP FILE
 zip -e phrase.zip x* > /dev/null
