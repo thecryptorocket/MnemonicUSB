@@ -1,7 +1,9 @@
 # MnemonicUSB
 Mnemonic secure usb/sd storage
 
-These scripts are designed to be run from TailsOS booted as a live image (accessed from https://tails.boum.org/). They should be copied via a USB and ran offline so that they will not touch the internet. The purpose of this script is to split your mnemonic phrase into 2 or more parts and encypt those parts so they can be stored on seperate USB or SD cards. One would then need both USB/SD cards and to decrypt both to access your mnemonic phrase
+These scripts are designed to be run from TailsOS booted as a live image (accessed from https://tails.boum.org/). Please note Tails needs to be configured with persistant storage to save the scripts and also additional software so that ZIP and UNZIP persist from when you run Install.sh.
+
+The purpose of this script is to split your mnemonic phrase into 2 or more parts and encypt those parts so they can be stored on seperate USB or SD cards. One would then need both USB/SD cards and to decrypt both to access your mnemonic phrase
 
 CreateFiles.sh
 
