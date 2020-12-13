@@ -1,6 +1,6 @@
 #!/bin/bash
 touch phrase.txt
-echo Please enter your mnemonic phrase (seperate each word with a space):
+echo Please enter your mnemonic phrase - seperate each word with a space - :
 read word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12
 echo Your first word is: $word1
 echo $word1 >> phrase.txt
