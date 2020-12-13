@@ -5,6 +5,10 @@ These scripts are designed to be run from TailsOS booted as a live image (access
 
 The purpose of this script is to split your mnemonic phrase into 2 or more parts and encypt those parts so they can be stored on seperate USB or SD cards. One would then need both USB/SD cards and to decrypt both to access your mnemonic phrase
 
+Install.sh
+
+-- This script needs to be run once persistant storage has been configure. Once it has been run you need to check the box which says 'Install Everytime'
+
 CreateFiles.sh
 
 -- This script will ask you to input a 12 word mnemonic phrase, it will then:
